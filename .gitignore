@@ -1,0 +1,40 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Test binary
+*.test
+
+# Output of the `go coverage` tool
+*.out
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.swp
+
+# Dependency directories (for vendoring)
+vendor/
+
+# Go module files (if not required to be tracked)
+go.sum
+
+# Executables
+/votio
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Docker
+docker-compose.yml
+/server/Dockerfile
+/client/Dockerfile
+
+# OS-specific files
+.DS_Store
+Thumbs.db
