@@ -30,11 +30,6 @@ go.sum
 *.tmp
 *.temp
 
-# Docker
-docker-compose.yml
-/server/Dockerfile
-/client/Dockerfile
-
 # OS-specific files
 .DS_Store
 Thumbs.db
