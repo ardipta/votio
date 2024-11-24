@@ -11,5 +11,5 @@ func main() {
 	// TODO: initial config load
 	routes.InitRoutes(e)
 
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(":8000"))
 }

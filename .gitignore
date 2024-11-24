@@ -18,6 +18,8 @@
 
 # Dependency directories (for vendoring)
 vendor/
+service/main
+service/.air.toml
 
 # Go module files (if not required to be tracked)
 go.sum

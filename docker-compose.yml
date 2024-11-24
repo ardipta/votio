@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: service/Dockerfile
+    container_name: backend
+    volumes:
+      - ./service:/app
+      - ./.air.toml:/app/.air.toml
+    ports:
+      - "8000:8000"
+    environment:
+      - GO_ENV=development
+    command: ["air", "-c", "/app/.air.toml"]
