@@ -18,6 +18,8 @@
 
 # Dependency directories (for vendoring)
 vendor/
+service/main
+service/.air.toml
 
 # Go module files (if not required to be tracked)
 go.sum
@@ -29,11 +31,6 @@ go.sum
 *.log
 *.tmp
 *.temp
-
-# Docker
-docker-compose.yml
-/server/Dockerfile
-/client/Dockerfile
 
 # OS-specific files
 .DS_Store
